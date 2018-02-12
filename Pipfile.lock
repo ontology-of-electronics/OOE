@@ -1,0 +1,39 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "e5ccdd0ccfeb1eff63363cc83a39d3748a54e32b7b5bf058c7526f9403586647"
+        },
+        "host-environment-markers": {
+            "implementation_name": "cpython",
+            "implementation_version": "3.6.4",
+            "os_name": "posix",
+            "platform_machine": "x86_64",
+            "platform_python_implementation": "CPython",
+            "platform_release": "4.12.14",
+            "platform_system": "Linux",
+            "platform_version": "#1 SMP 1",
+            "python_full_version": "3.6.4",
+            "python_version": "3.6",
+            "sys_platform": "linux"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.6"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "owlready2": {
+            "editable": true,
+            "hg": "https://bitbucket.org/jibalamy/owlready2",
+            "ref": "34a59868678b8b1a40908e0c940c75795be84925"
+        }
+    },
+    "develop": {}
+}

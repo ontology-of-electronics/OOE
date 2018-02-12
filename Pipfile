@@ -1,0 +1,19 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+"owlready2" = {hg = "https://bitbucket.org/jibalamy/owlready2", editable = true}
+
+
+[dev-packages]
+
+
+
+[requires]
+
+python_version = "3.6"
