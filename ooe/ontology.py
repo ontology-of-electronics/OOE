@@ -14,12 +14,12 @@ import owlready2
 emmoOntology = emmo.get_ontology('emmo-0.3_2017-10-26.owl')
 emmoOntology.load()
 
-# not sure why it isn't easier to get the 'component' entity
-component = emmoOntology.search(iri='*EMMO_000168')[0]
-
 onto = owlready2.get_ontology('https://ontology-of-electonics.github.io')
 
+import electronic_quantity
+electronic_quantity.electronic_quantity(onto, emmoOntology)
+
 import electronic_component
-electronic_component.electronic_component(onto, component)
+electronic_component.electronic_component(onto, emmoOntology)
 
 onto.save(file=os.path.join(root_dir, 'owl/electronics.owl'), format='rdfxml')
